@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListTheLoaiActivity extends AppCompatActivity {
+
     public static List<TheLoai> dsTheLoai = new ArrayList<>();
     ListView lvTheLoai;
     TheLoaiAdapter adapter = null;
@@ -30,6 +31,7 @@ public class ListTheLoaiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTitle("THỂ LOẠI");
         setContentView(R.layout.activity_list_the_loai);
+
         lvTheLoai = (ListView) findViewById(R.id.lvTheLoai);
         registerForContextMenu(lvTheLoai);
         theLoaiDAO = new TheLoaiDAO(ListTheLoaiActivity.this);

@@ -42,6 +42,7 @@ public class HoaDonChiTietActivity extends AppCompatActivity {
         tvThanhTien = (TextView) findViewById(R.id.tvThanhTien);
         adapter = new CartAdapter(this, dsHDCT);
         lvCart.setAdapter(adapter);
+
         Intent in = getIntent();
         Bundle b = in.getExtras();
         if (b != null) {

@@ -23,6 +23,7 @@ public class TheLoaiDetailActivity extends AppCompatActivity {
 
         tentl = findViewById(R.id.edtentl);
         vitri = findViewById(R.id.edtenvt);
+
         theLoaiDAO = new TheLoaiDAO(this);
         Intent i = getIntent();
         Bundle b = i.getExtras();

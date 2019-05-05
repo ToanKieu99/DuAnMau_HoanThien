@@ -22,6 +22,7 @@ public class NguoiDungActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nguoi_dung);
         setTitle("THÊM NGƯỜI DÙNG");
+
         btnThemNguoiDung = (Button) findViewById(R.id.btnAddUser);
         edUser = (EditText) findViewById(R.id.edUserName);
         edPass = (EditText) findViewById(R.id.edPassword);

@@ -73,7 +73,7 @@ public class TheLoaiAdapter extends BaseAdapter {
 
             convertView.setTag(holder);
         } else
-            holder = (ViewHolder) convertView.getTag();
+        holder = (ViewHolder) convertView.getTag();
         TheLoai _entry = (TheLoai) arrTheLoai.get(position);
         holder.img.setImageResource(R.drawable.theloai);
         holder.txtMaTheLoai.setText(_entry.getMaTheLoai());

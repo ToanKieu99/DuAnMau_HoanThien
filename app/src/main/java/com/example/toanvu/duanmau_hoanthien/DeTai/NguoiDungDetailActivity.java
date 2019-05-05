@@ -22,12 +22,15 @@ public class NguoiDungDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_nguoi_dung_detail);
         edFullName = (EditText) findViewById(R.id.edFullName);
         edPhone = (EditText) findViewById(R.id.edPhone);
+
         nguoiDungDAO = new NguoiDungDAO(this);
+
         Intent in = getIntent();
         Bundle b = in.getExtras();
         fullname = b.getString("FULLNAME");
         phone = b.getString("PHONE");
         username = b.getString("USERNAME");
+
         edFullName.setText(fullname);
         edPhone.setText(phone);
 

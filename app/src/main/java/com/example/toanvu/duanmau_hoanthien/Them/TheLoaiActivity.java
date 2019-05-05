@@ -13,6 +13,7 @@ import com.example.toanvu.duanmau_hoanthien.Model.TheLoai;
 import com.example.toanvu.duanmau_hoanthien.R;
 
 public class TheLoaiActivity extends AppCompatActivity {
+
     Button btThemTheLoai;
     TheLoaiDAO theLoaiDAO;
     EditText editMaTL, edittenTheLoai, editViTri, editMoTa;
